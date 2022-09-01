@@ -1,0 +1,7 @@
+
+<div class="container">
+    <div class="box" *ngFor="let elem of users ">
+        <img [src]="elem.avatar" [alt]="elem.id" width="100">
+        <h3>{{elem.first_name}}-{{elem.last_name}}</h3>
+    </div>
+</div>
